@@ -70,7 +70,7 @@
     </style>
   </head>
   <body>
-
+    <div class="wrapper home2">
       <header class="header-style-2">
         <nav class="navbar navbar-expand-lg">
           <a class="navbar-brand" href="index-2.html"><h1>truXeco</h1></a>
@@ -138,17 +138,52 @@
         </div>
       </section>
       <!--Navegación Fin-->
+      <section>
+        <div>
+          <form id="ecoForm" style="padding-bottom: 10%">
+            <h2 class="h2-about-txt" style="padding-top: 100%">
+              Ingresa tus datos para calcular
+            </h2>
+            <label for="electricity">Numero de vuelos(al año)</label>
+            <input type="number" id="electricity" min="0" required /><br />
 
-      <iframe
-        class="responsive-iframe"
-        width="710"
-        height="1300"
-        frameborder="0"
-        marginwidth="10%"
-        marginheight=""
-        scrolling="no"
-        src="https://calculator.carbonfootprint.com/calculator.aspx?lang=es"
-      ></iframe>
+            <label for="electricity"
+              >Consumo de carne (kilogramos por dia)?</label
+            >
+            <input type="number" id="electricity" min="0" required /><br />
+
+            <label for="electricity"
+              >Consumo de hojas de papel (hojas al dia)</label
+            >
+            <input type="number" id="electricity" min="0" required /><br />
+
+            <label for="electricity"
+              >Consumo de electricidad (kWh por mes):</label
+            >
+            <input type="number" id="electricity" min="0" required /><br />
+
+            <label for="gas">Consumo de gas (m3 por mes): </label>
+            <input type="number" id="gas" min="0" required /><br />
+
+            <label for="water">Consumo de agua (litros por día): </label>
+            <input type="number" id="water" min="0" required /><br />
+
+            <label for="waste">Generación de residuos (kg por semana): </label>
+            <input type="number" id="waste" min="0" required /><br />
+
+            <label for="transport"
+              >Kilómetros recorridos en transporte (km por mes):
+            </label>
+            <input type="number" id="transport" min="0" required /><br />
+
+            <button type="submit">Calcular</button>
+          </form>
+        </div>
+      </section>
+      <section id="resultSection" style="display: none">
+        <h2>Tu huella ecológica es:</h2>
+        <div id="result"></div>
+      </section>
 
       <!--Footer Inicio-->
       <footer class="footer">
@@ -198,7 +233,7 @@
               </div>
             </div>
           </div>
-
+        </div>
       </footer>
       <!--Footer Fin-->
     </div>

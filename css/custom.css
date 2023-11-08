@@ -1680,8 +1680,8 @@ section.services-area ul li.active:after {
 	position: absolute;
 	left: 0;
 	top: 0;
-	width: 95px;
-	height: 124px;
+	width: 250px;
+	height: 150px;
 	background: #fff;
 	border: 2px solid #e6e6e6;
 	content: "";
