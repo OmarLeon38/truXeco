@@ -1,0 +1,18 @@
+.iframe-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Esto es opcional, pero ayuda a centrar verticalmente en la pantalla completa */
+}
+
+.responsive-iframe {
+  max-width: 100%; /* El iframe se ajustará al ancho del contenedor */
+  width: 100%; /* Asegúrate de que el iframe ocupe todo el ancho disponible */
+  display: block; /* Evita el espacio en blanco adicional debajo del iframe */
+}
+
+@media (max-width: 768px) {
+  .iframe-container {
+    padding: 0 20px; /* Añade un poco de espacio en los lados en pantallas pequeñas, opcional */
+  }
+}
