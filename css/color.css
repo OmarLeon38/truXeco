@@ -12,3 +12,18 @@
 .post-thumb a:hover, .f-cat span a:hover, .campaign-thumb a:hover, .event-thumb a:hover, .blog-thumb a:hover, .radio-boxes input[type=radio].css-radio+label.css-label:hover, .radio-boxes input[type=radio].css-radio:checked+label.css-label, .current-projects .nav-link.active, .current-projects .nav-link:hover, .gt-pagination .page-item.active .page-link, .gt-pagination .page-link:hover, .ser-thumb a:hover, .projects-grid .ser-box:hover .ser-txt span.aicon, .event-list .pro-list-box:hover a.partibtn, .gallery-img a:hover, .single-post-tags a:hover, .share-post a:hover, .slick-slide.slick-current:after, .slick-slide.slick-current span:after, .slick-slide.slick-current span:before {
 	border-color: #66bb6a;
 }
+
+
+ul.custom-color li {
+    content: "•"; 
+    color: white; 
+    margin-right: 5px; 
+	line-height: 38px;
+  }
+
+
+ul.custom-color li a {
+	color: #ccc;
+	font-size: 18px;
+	font-weight: 600;
+}
